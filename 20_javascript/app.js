@@ -1,6 +1,13 @@
-// alert("改行つき文字列\n改行されました");
+// $(function() {
+//     $("#anim").click(function() {
+//         // 『jQuery』の代表的な処理1『アニメーション』
+//         $(".box1").fadeOut();
+//         $(".box1").fadeIn();
+//     });
+// });
 
-// var tensuu = 65;
-// var mojiretu = (tensuu >= 60) ? "合格" : "不合格";
- 
-// alert(mojiretu);
+$(function() {
+    // 『colblink()』は、『jquery.colblink.js』で拡張したメソッド
+    $("#target1").colblink(); // id『target1』の要素を色付き点滅
+    $("#target3").colblink(); // id『target3』の要素を色付き点滅
+});
